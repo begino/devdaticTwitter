@@ -25,7 +25,7 @@
     </ion-segment-button>
 </ion-segment>
 
-<ion-content>
+<ion-content [fullscreen]="true" scrollEvents="true" [appHideHeader]="header" [appStickySegment]="segmentcontrol">
     <div [hidden]="segment !== 'home'">
         <!-- Stoy section at the top -->
         <ion-slides [options]="opts">

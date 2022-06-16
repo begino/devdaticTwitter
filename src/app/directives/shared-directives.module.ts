@@ -12,6 +12,7 @@ import { StickySegmentDirective } from './sticky-segment.directive';
   ],
   imports: [
     CommonModule
-  ]
+  ],
+  exports: [HideHeaderDirective, StickySegmentDirective]
 })
 export class SharedDirectivesModule { }
